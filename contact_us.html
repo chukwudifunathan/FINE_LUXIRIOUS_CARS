@@ -15,20 +15,27 @@
         <a href="./contact_us.html">CONTACT US</a>
     </nav>
     <div class="container-6">
-        <h1>Contact Us</h1>
-        <p>If you have any questions or need assistance, please feel free to reach out to us.</p>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
+            <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+    </form>
+
         <p>We value your feedback and will get back to you as soon as possible.</p>
         <p>For immediate assistance, you can also reach us at:</p>
         <p>Phone: +123 456 7890</p> 
@@ -47,9 +54,8 @@
             <p>Facebook | Twitter | Instagram</p>
         </div>
         <p>We look forward to hearing from you!</p>
-        <div class="location-image"> 
-            <img src="./car-image/maps.webp" alt="location-image"> 
-        </div>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15857.92075441654!2d7.486959868215073!3d6.460683596491565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a3da380064db%3A0x42765fbbca922aa2!2sPolo%20Park%20mall!5e0!3m2!1sen!2sng!4v1755853982847!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
 
     </div>

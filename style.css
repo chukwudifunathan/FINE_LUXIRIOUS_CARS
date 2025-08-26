@@ -198,6 +198,11 @@
         margin-top: 20px;
         
     }
+    .container-9{
+        background-color: black;
+        color:gold;
+        padding: 100px;
+    }
     footer{
         /* background-color: black; */
         /* color: gold; */
@@ -244,6 +249,20 @@
         padding: 20px;
         background-color: black;
         color: gold;
+    }
+    .about-details{
+        padding:100px;
+    }
+    .btn{
+        color:aliceblue; 
+        background-color:green; 
+        /* color: white; */
+        padding: 12px 20px;
+        border:none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        font-weight: bold;
     }
     .car-image-1{
         display: flex grid;

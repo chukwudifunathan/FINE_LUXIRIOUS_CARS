@@ -127,6 +127,20 @@
         text-align: center;
         margin-top: 20px;
     }
+    .car-image-2{
+        padding:30px;
+        border:4px solid white;
+        gap:100px;
+        justify-content:center;
+        justify-content:space-between;
+        align-items: center;
+        
+    }
+    .car-image-2 img{
+        width: 100%; 
+        height:900px;
+        align-items: center; 
+    }
     .container-4 p{
         color:gold;
         text-align: center;
